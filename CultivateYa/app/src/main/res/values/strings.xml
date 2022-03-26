@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Cultivate Ya</string>
+    <string name="tiposuelovacio">ingresa un valor</string>
+    <string name="tiposuelo1">extremadamente ácido</string>
+    <string name="tiposuelo2">fuertemente acido</string>
+    <string name="tiposuelo3">medianamente acido</string>
+    <string name="tiposuelo4">ligeramente basico</string>
+    <string name="tiposuelo5">neutro</string>
+    <string name="tiposuelo6">medianamente basico</string>
+    <string name="tiposuelo7">basico</string>
+    <string name="tiposuelo8">ligeramente alcalino</string>
+    <string name="tiposuelo9">alcalino</string>
+    <string name="tiposuelo10">fuertemente alcalino</string>
+    <string name="huertocreado"> ¡Tu huerto ya a sido creado! </string>
+    <string name="recomendacion"> Hemos seleccionado algunos cultivos para tu suelo</string>
+</resources>

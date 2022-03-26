@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "981404017279",
+    "firebase_url": "https://cultivateya-97632.firebaseio.com",
+    "project_id": "cultivateya-97632",
+    "storage_bucket": "cultivateya-97632.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981404017279:android:a953046a7f956d20",
+        "android_client_info": {
+          "package_name": "com.example.cultivateya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981404017279-14qs2m3vd1ul4l13uer5e9nl71p3n1eh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cultivateya",
+            "certificate_hash": "7d88eaca01b35705a228dbc966e185aaf19fe6cb"
+          }
+        },
+        {
+          "client_id": "981404017279-oppgssej2ccfb7bg61nfb7rivnbivlnn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkog5Gs646GUw9E7Hh8X9nM-HhLGgrvDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981404017279-oppgssej2ccfb7bg61nfb7rivnbivlnn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

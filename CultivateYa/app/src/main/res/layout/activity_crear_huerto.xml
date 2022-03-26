@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intents.crear_huerto">
+
+    <LinearLayout
+        android:layout_width="416dp"
+        android:layout_height="731dp"
+        android:background="#5FC439"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="Nombra tu huerto"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:background="@color/colorAccent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Mi Primer Huerto" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:text="Medidas en metros cuadrados"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etMedida"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@color/colorAccent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="33" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Acidez de tu suelo (ph)"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etPh"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/colorAccent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="5.9" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tu suelo es:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvTipo"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:background="@color/colorAccent"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡Agregar cultivos!" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

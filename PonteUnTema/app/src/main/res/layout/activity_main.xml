@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alumnossur.ponteuntema.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="310dp"
+        android:layout_height="72dp"
+        android:text="Seleccione una opción"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <RadioGroup
+        android:layout_width="287dp"
+        android:layout_height="104dp"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="143dp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tocar sonido" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotationX="s"
+        android:text="Texto de prueba"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejecutar"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+</android.support.constraint.ConstraintLayout>
